@@ -1,0 +1,33 @@
+$color-palette: (
+  primary: #e94662,
+  secondary: #634293
+);
+
+$colors: (
+  common: (
+    darken: #000,
+    lighten: #fff,
+  ),
+
+  bg: (
+    primary:linear-gradient(135deg, #162943, #060e16),
+    linear-red:linear-gradient(to right, #f08577, #da291c 80%),
+    red: #da291c,
+  ),
+
+  palette: (
+    primary: map-get($color-palette, primary),
+    secondary: map-get($color-palette, secondary)
+  ),
+
+  text: (
+    base: #253746,
+    title: #253746,
+    secondary: #002846,
+    detail: #62798a,
+    link: #DD526A,
+    nav: #FFF,
+    nav-sub: #002847,
+
+  ),
+);

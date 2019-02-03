@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+    Vendor
+\* ------------------------------------------------------------ */
+
+@import "./vendor/*.scss";
+@import "./1_settings/*.scss";
+@import "./2_tools/**/**/*.scss";
+@import "./3_generic/**/**/*.scss";
+@import "./5_objects/**/**/*.scss";
+@import "./6_components/**/**/*.scss";
+
+/* ------------------------------------------------------------ *\
+    Settings
+\* ------------------------------------------------------------ */
+
+@import "~@styles/shared/_config.scss";
+@import "~@styles/shared/_variables.scss";
+@import "~@styles/shared/_editor.scss";
+@import "./_variables.scss";
+@import "./_reset.scss";
+
+@import "./_sprite.scss";
+
+/* ------------------------------------------------------------ *\
+    Theme
+\* ------------------------------------------------------------ */
+
+@import "./_generic*.scss";

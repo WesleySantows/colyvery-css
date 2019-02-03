@@ -1,0 +1,46 @@
+
+.container {
+  position: relative;
+  max-width: grid( container, large );
+  margin: 0 auto;
+
+
+  @include resp( grid( tablet ) ){
+    padding: 0 16px;
+  }
+
+  @include resp-max( grid( tablet ) ){
+    padding: 0 20px;
+  }
+
+
+}
+
+// .bg-header {
+//   background-image: color( bg, primary );
+//   height: 100%;
+//   width: 100%;
+//   -webkit-transform: skewY(-12deg);
+//   transform: skewY(-6deg);
+//   position: absolute;
+//   top: 0;
+// }
+
+// .nada {
+//   content: '';
+//   height: 400px;
+//   width: 680px;
+//   background-image: color( bg, primary );
+//   position: absolute;
+//   -webkit-transform: skewY(-12deg);
+//   transform: skewY(23deg);
+//   bottom: -76px;
+//   right: 0;
+//   z-index: 0;
+// }
+
+
+body {
+  font-family: font( primary, base ) !important;
+  overflow-x: hidden;
+}

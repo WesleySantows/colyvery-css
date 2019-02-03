@@ -1,0 +1,41 @@
+.btn {
+  color: color(text, nav);
+  border-radius: 3px;
+  border: solid 1px #ffffff;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  transition: 0.1s;
+  box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.8);
+
+  &.red {
+    background-color: #da291c;
+    box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.8);
+    border: none;
+  }
+
+  &.purple {
+    background-color: #9b1a7e;
+    box-shadow: 0px 6px 10px 0 rgba(0, 0, 0, 0.8);
+    border: none;
+  }
+
+  &.blue {
+    background-color: #307fe2;
+    border: none;
+  }
+
+  &:hover {
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3);
+    top: 2px;
+  }
+}
+
+#tab-1 .btn:nth-child(1) {
+  background-color: #da291c;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.8);
+  border: none;
+  margin-right: 20px;
+}
